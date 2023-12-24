@@ -4,11 +4,11 @@
   --header-height: 3rem;
   /* Colors */
   /* Change favorite color */
-  --hue-color: 340;
-  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 231;
+  /*Purple 250 - Green 142 - Blue 230 - Pink 340*-   Navy Blue: hsl(231, 20%, 49%)/
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color: hsl(var(--hue-color), 20%, 49%);
+  --first-color-second: hsl(var(--hue-color), 20%, 49%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -256,7 +256,7 @@ img {
 }
 
 .home-container .home-content .home-img img{
-  width: 300px;
+  width: 400px;
   height: auto;
   border-radius: 50%;
   overflow: hidden;
