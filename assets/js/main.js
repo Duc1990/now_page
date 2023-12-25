@@ -90,17 +90,24 @@ modalCloses.forEach((modalClose) => {
   });
 });
 
-/* PORTFOLIO SWIPER  */
-var swiperPortfolio = new Swiper(".portfolio-container", {
-  cssMode: true,
+/* BOOK SWIPER  */
+let swiperBook = new Swiper(".book__swiper", {
   loop: true,
+  spaceBetween: 16,
+  grabCursor: true,
+  slidesPerView: "auto",
+  centeredSlides: "auto",
+
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+
+  breakpoints: {
+    1150: {
+      slidesPerView: 4,
+      centeredSlides: false,
+    },
   },
 });
 

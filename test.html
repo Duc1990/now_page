@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include any necessary stylesheets and scripts for Swiper here -->
+    <link rel="stylesheet" href="path/to/swiper.min.css">
+    <script src="path/to/swiper.min.js"></script>
+
+    <!-- Your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>My Favorite Books</title>
+</head>
+<body>
+
+<section class="book section" id="books">
+    <h2 class="section-title">Books</h2>
+    <span class="section-subtitle">My favorite books</span>
+
+    <div class="book__container container">
+        <div class="book__swiper swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Replace the content of each swiper-slide with your book details -->
+                <article class="book__card swiper-slide">
+                    <img src="assets/img/book-1.png" alt="Book 1" class="book__img">
+                    <h2 class="book__title">Featured Book</h2>
+                    <div class="book__prices">
+                        <span class="book__discount">$11.99</span>
+                        <span class="book__price">$19.99</span>
+                    </div>
+                    <button class="button">Add To Cart</button>
+                    <div class="book__actions">
+                        <button><i class="ri-search-line"></i></button>
+                        <button><i class="ri-heart-3-line"></i></button>
+                        <button><i class="ri-eye-line"></i></button>
+                    </div>
+                </article>
+
+                <!-- Repeat the above article structure for each book -->
+
+            </div>
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="swiper-button-next">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper', {
+        // Add your Swiper configuration options here
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+</body>
+</html>
