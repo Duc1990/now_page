@@ -104,8 +104,8 @@ let swiperBook = new Swiper(".book__swiper", {
   },
 
   breakpoints: {
-    1150: {
-      slidesPerView: 4,
+    1024: {
+      slidesPerView: 3,
       centeredSlides: false,
     },
   },
