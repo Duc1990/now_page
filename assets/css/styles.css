@@ -498,47 +498,48 @@ img {
 }
 
 .skills-container .skills-html {
-  width: 90%;
+  width: 65%;
 }
 
 .skills-container .skills-css {
-  width: 80%;
+  width: 40%;
 }
 
 .skills-container .skills-js {
-  width: 60%;
+  width: 20%;
 }
 
-.skills-container .skills-react {
-  width: 85%;
-}
 
-.skills-container .skills-php {
+.skills-container .skills-preparation {
   width: 80%;
 }
 
-.skills-container .skills-node {
-  width: 70%;
+.skills-container .skills-visualization {
+  width: 60%;
 }
 
-.skills-container .skills-firebase {
-  width: 90%;
+.skills-container .skills-programming {
+  width: 50%;
 }
 
-.skills-container .skills-python {
-  width: 55%;
+.skills-container .skills-math {
+  width: 30%;
 }
 
-.skills-container .skills-figma {
-  width: 90%;
+.skills-container .skills-ml {
+  width: 20%;
 }
 
-.skills-container .skills-sketch {
-  width: 85%;
+.skills-container .skills-muay {
+  width: 30%;
 }
 
-.skills-container .skills-ps {
-  width: 85%;
+.skills-container .skills-taekwondo {
+  width: 10%;
+}
+
+.skills-container .skills-grappling {
+  width: 5%;
 }
 
 /* QUALIFICATION */
