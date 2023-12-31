@@ -97,7 +97,9 @@ let swiperBook = new Swiper(".book__swiper", {
   grabCursor: true,
   slidesPerView: "auto",
   centeredSlides: "auto",
-
+  width: 768, // Set the width to match the container width
+  overflow: false, // Set overflow property
+  centeredSlides: true, // Set centeredSlides to true
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -105,7 +107,7 @@ let swiperBook = new Swiper(".book__swiper", {
 
   breakpoints: {
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       centeredSlides: false,
     },
   },
