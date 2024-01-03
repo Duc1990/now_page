@@ -78,37 +78,42 @@
     <!-- MAIN -->
     <main class="main">
 
-
-        <section class="home section">
-            <div class="home__container container grid">
-               <div class="home__perfile perfile">
-                  <div class="perfile__content">
-                     <img src="assets/img/perfil.png" alt="Home Profile Image" class="perfile__img">
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+               <div class="home-perfile perfile">
+                  <div class="perfile-content">
+                     <img src="assets/img/perfil.png" alt="Home Profile Image" class="perfile-img">
                   </div>
                </div>
 
-               <div class="home__content grid">
-                  <div class="home__data grid">
-                     <h1 class="home__name">Duc Tran</h1>
+               <div class="home-content grid">
+                  <div class="home-data grid">
+                     <h1 class="home-data-title">Duc Tran</h1>
 
-                     <h2 class="home__profession">Web & Visual Designer</h2>
+                     <h3 class="home-data-subtitle">Currently I am:</h3>
+                     <ul class="home-data-description home-ul">
+                        <li>Learning the aws infrastructure </li>
+                        <li>Preparing for Thailand </li>
+                        <li>Reading "Die with Zero" by Bill Perkins </li>
+                    </ul>
 
-                     <div class="home__social">
-                        <a href="https://github.com/" target="_blank" class="home__social-link">
-                           <i class="ri-github-fill"></i>
+                     <div class="home-social">
+                        <a href="https://www.instagram.com/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-instagram"></i>
                         </a>
-
-                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
-                           <i class="ri-linkedin-box-fill"></i>
+                        <a href="https://linkedin.com/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-linkedin"></i>
                         </a>
-
-                        <a href="https://dribbble.com/" target="_blank" class="home__social-link">
-                           <i class="ri-dribbble-line"></i>
+                        <a href="https://xing.com/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-xing"></i>
                         </a>
-                     </div>
+                    </div>
                   </div>
 
-                  <a href="assets/pdf/Duc-Cv.pdf" download="" class="home__button button">Download CV</a>
+                  <a href="#contact" class="home-button button button-flex">
+                    Contact me
+                    <i class="fab fa-telegram-plane button-icon"></i>
+                  </a>
                </div>
             </div>
          </section>
