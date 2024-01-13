@@ -1027,6 +1027,9 @@ html{
   .container .nav-list {
     column-gap: 0;
   }
+  .nav-list {
+    padding-top: 1rem;
+  }
   .perfile {
     width: auto; /* Changed width to auto */
     height: auto;
