@@ -1022,7 +1022,7 @@ html{
     margin-right: var(--mb-1-5);
   }
   .container .nav-menu {
-    padding: 2rem 0.25rem 4rem; /* Adjusted padding */
+    padding: 2rem 0.25rem 2rem; /* Adjusted padding */
   }
   .container .nav-list {
     column-gap: 0;
@@ -1067,6 +1067,12 @@ html{
   .testimonial-data,
   .testimonial-description {
     text-align: center;
+  }
+  .footer-container .footer-texts,
+  .footer-container .footer-links,
+  .footer-container .footer-socials {
+    text-align: center;
+    align-self: center;
   }
 }
 
